@@ -2,9 +2,11 @@ package com.spring.crudproject.controller;
 
 import com.spring.crudproject.dto.ArticleTemplate;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
+@Controller
 public class MainController {
 
     @PostMapping("/project")
